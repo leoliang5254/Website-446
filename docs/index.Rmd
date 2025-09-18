@@ -1,7 +1,13 @@
 ---
-title: "Website 446"
-output: html_document
-date: "2025-09-18"
+title: "This is a Journal Themes YAML"
+author: "Type your name here"
+date: "`r Sys.Date()`"
+output: 
+  html_document:
+    theme: journal
+    toc: yes
+    toc_float:
+      collapsed: true
 ---
 
 ```{r setup, include=FALSE}
